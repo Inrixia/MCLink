@@ -1,0 +1,44 @@
+client<-server: play.login :{"entityId":7149,"gameMode":1,"dimension":0,"difficulty":1,"maxPlayers":20,"levelType":"default","reducedDebugInfo":false}
+client<-server: play.custom_payload :{"channel":"MC|Brand","data":{"type":"Buffer","data":[9,102,109,108,44,102,111,114,103,101]}}
+client<-server: play.difficulty :{"difficulty":1}
+client<-server: play.abilities :{"flags":13,"flyingSpeed":0.05000000074505806,"walkingSpeed":0.10000000149011612}
+client<-server: play.held_item_slot :{"slot":2}
+client<-server: play.entity_status :{"entityId":7149,"entityStatus":28}
+client<-server: play.unlock_recipes
+client<-server: play.player_info :{"action":0,"data":[{"UUID":"2b3707f6-7de8-3634-825a-07b8157f6379","name":"Inrix","properties":[],"gamemode":1,"ping":0}]}
+client<-server: play.player_info :{"action":0,"data":[{"UUID":"2b3707f6-7de8-3634-825a-07b8157f6379","name":"Inrix","properties":[],"gamemode":1,"ping":0}]}
+client<-server: play.position :{"x":240.33939247765568,"y":73,"z":271.2326188632418,"yaw":-339.4502258300781,"pitch":37.04998779296875,"flags":0,"teleportId":1}
+client<-server: play.world_border :{"action":3,"x":0,"z":0,"old_radius":60000000,"new_radius":60000000,"speed":0,"portalBoundary":29999984,"warning_time":5,"warning_blocks":15}
+client<-server: play.update_time :{"age":[0,1637474],"time":[0,186084]}
+client<-server: play.spawn_position :{"location":{"x":248,"y":64,"z":256}}
+client<-server: play.window_items :{"windowId":0,"items":[{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":49,"itemCount":1,"itemDamage":0},{"blockId":259,"itemCount":1,"itemDamage":0},{"blockId":-1},{"blockId":4285,"itemCount":1,"itemDamage":1},{"blockId":4100,"itemCount":1,"itemDamage":3},{"blockId":2,"itemCount":1,"itemDamage":0},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1}]}
+client<-server: play.set_slot :{"windowId":-1,"slot":-1,"item":{"blockId":-1}}
+client<-server: play.set_slot :{"windowId":0,"slot":36,"item":{"blockId":49,"itemCount":1,"itemDamage":0}}
+client<-server: play.set_slot :{"windowId":0,"slot":37,"item":{"blockId":259,"itemCount":1,"itemDamage":0}}
+client<-server: play.set_slot :{"windowId":0,"slot":39,"item":{"blockId":4285,"itemCount":1,"itemDamage":1}}
+client<-server: play.set_slot :{"windowId":0,"slot":40,"item":{"blockId":4100,"itemCount":1,"itemDamage":3}}
+client<-server: play.set_slot :{"windowId":0,"slot":41,"item":{"blockId":2,"itemCount":1,"itemDamage":0}}
+
+
+channel autoconfig
+
+client<-server: play.update_health :{"health":20,"food":20,"foodSaturation":5}
+client<-server: play.experience :{"experienceBar":0,"level":0,"totalExperience":0}
+client<-server: play.keep_alive :{"keepAliveId":[0,103110014]}
+client<-server: play.custom_payload :{"channel":"ftbutilities_claims","data":{"type":"Buffer","data":[2,8,9,0,0,254,254,0]}}
+client.write()
+
+client<-server: play.position : {"x":30.5,"y":76.25220334025373,"z":33.692009942787365,"yaw":154.50025939941406,"pitch":13.049985885620117,"flags":0,"teleportId":4}
+client<-server: play.abilities :{"flags":13,"flyingSpeed":0.05000000074505806,"walkingSpeed":0.10000000149011612}
+client<-server: play.world_border :{"action":3,"x":0,"z":0,"old_radius":60000000,"new_radius":60000000,"speed":0,"portalBoundary":29999984,"warning_time":5,"warning_blocks":15}
+client<-server: play.update_time :{"age":[0,1695133],"time":[0,4518]}
+client<-server: play.spawn_position :{"location":{"x":248,"y":64,"z":256}}
+client<-server: play.window_items :{"windowId":0,"items":[{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":18,"itemCount":1,"itemDamage":1},{"blockId":134,"itemCount":1,"itemDamage":0},{"blockId":49,"itemCount":1,"itemDamage":0},{"blockId":259,"itemCount":1,"itemDamage":0},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1},{"blockId":-1}]}
+client<-server: play.set_slot :{"windowId":-1,"slot":-1,"item":{"blockId":-1}}
+client<-server: play.held_item_slot :{"slot":1}
+client<-server: play.entity_update_attributes :{"entityId":4043,"properties":[{"key":"generic.movementSpeed","value":0.10000000149011612,"modifiers":[]},{"key":"generic.armor","value":0,"modifiers":[]},{"key":"generic.maxHealth","value":20,"modifiers":[]},{"key":"generic.armorToughness","value":0,"modifiers":[]},{"key":"generic.attackSpeed","value":4,"modifiers":[]},{"key":"generic.luck","value":0,"modifiers":[]},{"key":"generic.reachDistance","value":5,"modifiers":[]},{"key":"forge.swimSpeed","value":1,"modifiers":[]}]}
+client<-server: play.world_event :{"effectId":1032,"location":{"x":0,"y":0,"z":0},"data":0,"global":false}
+client<-server: play.update_health :{"health":20,"food":20,"foodSaturation":5}
+client<-server: play.experience :{"experienceBar":0.1428571492433548,"level":0,"totalExperience":1}
+
+client<-server: play.position :{"x":30.5,"y":76.25220334025373,"z":33.692009942787365,"yaw":154.50025939941406,"pitch":13.049985885620117,"flags":0,"teleportId":5}
